@@ -1,0 +1,30 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: darkgray;
+}
+
+button {
+  margin: 0 15vw 20px;
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+span {
+  font-size: 20px;
+}
+
+canvas {
+  /* określamy obramowanie canvas*/
+  border: 3px solid #fff;
+}
